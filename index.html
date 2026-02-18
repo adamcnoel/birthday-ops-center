@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ABSURD BIRTHDAY INTERNET PAGE</title>
+  <meta name="description" content="An unnecessarily intense birthday website." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Birthday Operations Center</span>
+    </div>
+    <button id="themeBtn" class="ghost" type="button" aria-label="Toggle theme">
+      Toggle Reality
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <div class="badge">STATUS: EXTREMELY CELEBRATORY</div>
+        <h1>
+          <span class="glitch" data-text="BIRTHDAY HAPPENING">BIRTHDAY HAPPENING</span>
+        </h1>
+
+        <p class="sub">
+          This website was created by ChatGPT, which means it is:
+          <strong>official</strong> (emotionally) and
+          <strong>inadmissible</strong> (legally).
+        </p>
+
+        <div class="cta-row">
+          <button id="partyBtn" class="primary" type="button">Activate Party Protocol</button>
+          <button id="icsBtn" class="secondary" type="button">Download Itinerary (.ics)</button>
+        </div>
+
+        <div class="countdown">
+          <div class="count-pill">
+            <div class="label">Time until first stop (Platform 18)</div>
+            <div id="countText" class="value">booting countdown…</div>
+          </div>
+          <div class="tiny">
+            If this timer looks wrong, that’s because time is a social construct and also JavaScript.
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image" role="img" aria-label="Balloons background image"></div>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Where/When/Why (Allegedly)</h2>
+
+        <div class="detail">
+          <span class="k">Whose birthday?</span>
+          <span class="v" id="personName">Adam</span>
+        </div>
+
+        <div class="detail">
+          <span class="k">When</span>
+          <span class="v" id="eventDateText">Sunday, Feb 22</span>
+        </div>
+
+        <div class="detail">
+          <span class="k">Stop 1</span>
+          <span class="v" id="stop1Text">Platform 18 — 4:30 PM (90 min)</span>
+        </div>
+
+        <div class="detail">
+          <span class="k">Stop 2</span>
+          <span class="v" id="stop2Text"><s>Sugar</s> Steak 44 — 6:15 PM</span>
+        </div>
+
+        <div class="detail">
+          <span class="k">Dress code</span>
+          <span class="v">“Normal, but with confidence.”</span>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>Schedule (subject to whim)</h2>
+        <ol class="schedule">
+          <li><strong>4:30</strong> Board Platform 18. Become a person who orders a “dramatic” drink.</li>
+          <li><strong>5:03</strong> Mandatory compliments (two per person, no repeats).</li>
+          <li><strong>6:00</strong> Disembark. Act like you’re in a heist movie, but the heist is friendship.</li>
+          <li><strong>6:15</strong> Arrive <s>Sugar</s> Steak 44. Pretend you’ve eaten vegetables this week.</li>
+          <li><strong>??:??</strong> Someone says “we should do this more often” and then doesn’t.</li>
+        </ol>
+      </article>
+
+      <article class="card media cake-card">
+        <h2>
+          Cake Intelligence Unit
+          <button id="cakeBtn" class="icon" type="button" aria-label="Cake button">🎂</button>
+        </h2>
+        <p>
+          Our cake analysts confirm: cake is both a food and a rumor.
+        </p>
+        <div class="media-img cake" role="img" aria-label="Cake image"></div>
+        <p class="tiny">
+          Tip: click the cake icon 7 times if you enjoy consequences.
+        </p>
+      </article>
+
+      <article class="card media">
+        <h2>Official Party Announcements</h2>
+        <p id="announcement" class="announcement">
+          Loading party memo from the Department of Vibes…
+        </p>
+        <div class="btn-row">
+          <button id="announceBtn" class="secondary" type="button">Generate Another Memo</button>
+          <button id="panicBtn" class="ghost" type="button">Panic (harmless)</button>
+        </div>
+        <div class="media-img disco" role="img" aria-label="Disco ball image"></div>
+      </article>
+
+      <article class="card media">
+        <h2>FAQ (Frequently Avoided Questions)</h2>
+        <details>
+          <summary>Is this a real website?</summary>
+          <p>Real enough to be clicked. Not real enough to fix your life.</p>
+        </details>
+        <details>
+          <summary>What should I bring?</summary>
+          <p>Yourself. Optional: snacks. Required: mild enthusiasm.</p>
+        </details>
+        <details>
+          <summary>What if I’m late?</summary>
+          <p>Arrive and say: “I am exactly on time for my narrative arc.”</p>
+        </details>
+        <details>
+          <summary>Will there be a speech?</summary>
+          <p>No speeches. Only vibes and occasional lies like “I’m fine.”</p>
+        </details>
+        <div class="media-img confetti" role="img" aria-label="Confetti image"></div>
+      </article>
+    </section>
+
+    <section class="footer">
+      <p>
+        Built with: HTML, CSS, JavaScript, and questionable confidence.
+        <span class="sep">•</span>
+        <a href="#" id="secretLink">Totally normal link</a>
+      </p>
+      <p class="tiny">
+        If you found this via an invite: yes, it’s silly. No, you can’t stop it now.
+      </p>
+    </section>
+  </main>
+
+  <canvas id="confettiCanvas" aria-hidden="true"></canvas>
+
+  <dialog id="eggDialog" class="egg">
+    <h3>🎉 EASTER EGG UNLOCKED 🎉</h3>
+    <p>
+      You have entered <strong>Birthday Tier Two</strong>.
+      Please accept this badge: <span class="badge-inline">CERTIFIED VIBE OPERATIVE</span>
+    </p>
+    <p class="tiny">
+      Pro-tip: the Konami code works because the internet demanded it.
+    </p>
+    <div class="btn-row">
+      <button id="eggClose" class="primary" type="button">Return to Reality</button>
+    </div>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
